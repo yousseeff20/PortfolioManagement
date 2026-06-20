@@ -1,0 +1,1260 @@
+[
+  {
+    "ContainingType": "PortfolioManagement.Api.Controllers.CrudController\u00603[[PortfolioManagement.Domain.Entities.AboutMe, PortfolioManagement.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[PortfolioManagement.Application.DTOs.AboutMeDto, PortfolioManagement.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[PortfolioManagement.Application.DTOs.AboutMeRequest, PortfolioManagement.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetPaged",
+    "RelativePath": "api/about-me",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Search",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SortBy",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SortDescending",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PortfolioManagement.Application.Common.PagedResult\u00601[[PortfolioManagement.Application.DTOs.AboutMeDto, PortfolioManagement.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PortfolioManagement.Api.Controllers.CrudController\u00603[[PortfolioManagement.Domain.Entities.AboutMe, PortfolioManagement.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[PortfolioManagement.Application.DTOs.AboutMeDto, PortfolioManagement.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[PortfolioManagement.Application.DTOs.AboutMeRequest, PortfolioManagement.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Create",
+    "RelativePath": "api/about-me",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "PortfolioManagement.Application.DTOs.AboutMeRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PortfolioManagement.Application.DTOs.AboutMeDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PortfolioManagement.Api.Controllers.CrudController\u00603[[PortfolioManagement.Domain.Entities.AboutMe, PortfolioManagement.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[PortfolioManagement.Application.DTOs.AboutMeDto, PortfolioManagement.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[PortfolioManagement.Application.DTOs.AboutMeRequest, PortfolioManagement.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetById",
+    "RelativePath": "api/about-me/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PortfolioManagement.Application.DTOs.AboutMeDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PortfolioManagement.Api.Controllers.CrudController\u00603[[PortfolioManagement.Domain.Entities.AboutMe, PortfolioManagement.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[PortfolioManagement.Application.DTOs.AboutMeDto, PortfolioManagement.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[PortfolioManagement.Application.DTOs.AboutMeRequest, PortfolioManagement.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Update",
+    "RelativePath": "api/about-me/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "PortfolioManagement.Application.DTOs.AboutMeRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PortfolioManagement.Application.DTOs.AboutMeDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PortfolioManagement.Api.Controllers.CrudController\u00603[[PortfolioManagement.Domain.Entities.AboutMe, PortfolioManagement.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[PortfolioManagement.Application.DTOs.AboutMeDto, PortfolioManagement.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[PortfolioManagement.Application.DTOs.AboutMeRequest, PortfolioManagement.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Delete",
+    "RelativePath": "api/about-me/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PortfolioManagement.Api.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "PortfolioManagement.Application.DTOs.Auth.LoginRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PortfolioManagement.Application.DTOs.Auth.AuthResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PortfolioManagement.Api.Controllers.AuthController",
+    "Method": "Logout",
+    "RelativePath": "api/auth/logout",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "PortfolioManagement.Application.DTOs.Auth.RefreshTokenRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PortfolioManagement.Api.Controllers.AuthController",
+    "Method": "Refresh",
+    "RelativePath": "api/auth/refresh",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "PortfolioManagement.Application.DTOs.Auth.RefreshTokenRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PortfolioManagement.Application.DTOs.Auth.AuthResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PortfolioManagement.Api.Controllers.CrudController\u00603[[PortfolioManagement.Domain.Entities.Certificate, PortfolioManagement.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[PortfolioManagement.Application.DTOs.CertificateDto, PortfolioManagement.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[PortfolioManagement.Application.DTOs.CertificateRequest, PortfolioManagement.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetPaged",
+    "RelativePath": "api/certificates",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Search",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SortBy",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SortDescending",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PortfolioManagement.Application.Common.PagedResult\u00601[[PortfolioManagement.Application.DTOs.CertificateDto, PortfolioManagement.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PortfolioManagement.Api.Controllers.CrudController\u00603[[PortfolioManagement.Domain.Entities.Certificate, PortfolioManagement.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[PortfolioManagement.Application.DTOs.CertificateDto, PortfolioManagement.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[PortfolioManagement.Application.DTOs.CertificateRequest, PortfolioManagement.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Create",
+    "RelativePath": "api/certificates",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "PortfolioManagement.Application.DTOs.CertificateRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PortfolioManagement.Application.DTOs.CertificateDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PortfolioManagement.Api.Controllers.CrudController\u00603[[PortfolioManagement.Domain.Entities.Certificate, PortfolioManagement.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[PortfolioManagement.Application.DTOs.CertificateDto, PortfolioManagement.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[PortfolioManagement.Application.DTOs.CertificateRequest, PortfolioManagement.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetById",
+    "RelativePath": "api/certificates/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PortfolioManagement.Application.DTOs.CertificateDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PortfolioManagement.Api.Controllers.CrudController\u00603[[PortfolioManagement.Domain.Entities.Certificate, PortfolioManagement.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[PortfolioManagement.Application.DTOs.CertificateDto, PortfolioManagement.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[PortfolioManagement.Application.DTOs.CertificateRequest, PortfolioManagement.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Update",
+    "RelativePath": "api/certificates/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "PortfolioManagement.Application.DTOs.CertificateRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PortfolioManagement.Application.DTOs.CertificateDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PortfolioManagement.Api.Controllers.CrudController\u00603[[PortfolioManagement.Domain.Entities.Certificate, PortfolioManagement.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[PortfolioManagement.Application.DTOs.CertificateDto, PortfolioManagement.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[PortfolioManagement.Application.DTOs.CertificateRequest, PortfolioManagement.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Delete",
+    "RelativePath": "api/certificates/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PortfolioManagement.Api.Controllers.ContactMessagesController",
+    "Method": "Submit",
+    "RelativePath": "api/contact-messages",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "PortfolioManagement.Application.DTOs.ContactMessageRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PortfolioManagement.Application.DTOs.ContactMessageDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PortfolioManagement.Api.Controllers.ContactMessagesController",
+    "Method": "GetPaged",
+    "RelativePath": "api/contact-messages",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Search",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SortBy",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SortDescending",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PortfolioManagement.Application.Common.PagedResult\u00601[[PortfolioManagement.Application.DTOs.ContactMessageDto, PortfolioManagement.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PortfolioManagement.Api.Controllers.ContactMessagesController",
+    "Method": "Delete",
+    "RelativePath": "api/contact-messages/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PortfolioManagement.Api.Controllers.ContactMessagesController",
+    "Method": "MarkRead",
+    "RelativePath": "api/contact-messages/{id}/read",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PortfolioManagement.Application.DTOs.ContactMessageDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PortfolioManagement.Api.Controllers.DashboardController",
+    "Method": "GetAnalytics",
+    "RelativePath": "api/dashboard/analytics",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "PortfolioManagement.Application.DTOs.DashboardAnalyticsDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PortfolioManagement.Api.Controllers.CrudController\u00603[[PortfolioManagement.Domain.Entities.Education, PortfolioManagement.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[PortfolioManagement.Application.DTOs.EducationDto, PortfolioManagement.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[PortfolioManagement.Application.DTOs.EducationRequest, PortfolioManagement.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetPaged",
+    "RelativePath": "api/educations",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Search",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SortBy",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SortDescending",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PortfolioManagement.Application.Common.PagedResult\u00601[[PortfolioManagement.Application.DTOs.EducationDto, PortfolioManagement.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PortfolioManagement.Api.Controllers.CrudController\u00603[[PortfolioManagement.Domain.Entities.Education, PortfolioManagement.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[PortfolioManagement.Application.DTOs.EducationDto, PortfolioManagement.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[PortfolioManagement.Application.DTOs.EducationRequest, PortfolioManagement.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Create",
+    "RelativePath": "api/educations",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "PortfolioManagement.Application.DTOs.EducationRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PortfolioManagement.Application.DTOs.EducationDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PortfolioManagement.Api.Controllers.CrudController\u00603[[PortfolioManagement.Domain.Entities.Education, PortfolioManagement.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[PortfolioManagement.Application.DTOs.EducationDto, PortfolioManagement.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[PortfolioManagement.Application.DTOs.EducationRequest, PortfolioManagement.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetById",
+    "RelativePath": "api/educations/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PortfolioManagement.Application.DTOs.EducationDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PortfolioManagement.Api.Controllers.CrudController\u00603[[PortfolioManagement.Domain.Entities.Education, PortfolioManagement.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[PortfolioManagement.Application.DTOs.EducationDto, PortfolioManagement.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[PortfolioManagement.Application.DTOs.EducationRequest, PortfolioManagement.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Update",
+    "RelativePath": "api/educations/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "PortfolioManagement.Application.DTOs.EducationRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PortfolioManagement.Application.DTOs.EducationDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PortfolioManagement.Api.Controllers.CrudController\u00603[[PortfolioManagement.Domain.Entities.Education, PortfolioManagement.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[PortfolioManagement.Application.DTOs.EducationDto, PortfolioManagement.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[PortfolioManagement.Application.DTOs.EducationRequest, PortfolioManagement.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Delete",
+    "RelativePath": "api/educations/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PortfolioManagement.Api.Controllers.CrudController\u00603[[PortfolioManagement.Domain.Entities.Experience, PortfolioManagement.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[PortfolioManagement.Application.DTOs.ExperienceDto, PortfolioManagement.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[PortfolioManagement.Application.DTOs.ExperienceRequest, PortfolioManagement.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetPaged",
+    "RelativePath": "api/experiences",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Search",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SortBy",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SortDescending",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PortfolioManagement.Application.Common.PagedResult\u00601[[PortfolioManagement.Application.DTOs.ExperienceDto, PortfolioManagement.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PortfolioManagement.Api.Controllers.CrudController\u00603[[PortfolioManagement.Domain.Entities.Experience, PortfolioManagement.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[PortfolioManagement.Application.DTOs.ExperienceDto, PortfolioManagement.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[PortfolioManagement.Application.DTOs.ExperienceRequest, PortfolioManagement.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Create",
+    "RelativePath": "api/experiences",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "PortfolioManagement.Application.DTOs.ExperienceRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PortfolioManagement.Application.DTOs.ExperienceDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PortfolioManagement.Api.Controllers.CrudController\u00603[[PortfolioManagement.Domain.Entities.Experience, PortfolioManagement.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[PortfolioManagement.Application.DTOs.ExperienceDto, PortfolioManagement.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[PortfolioManagement.Application.DTOs.ExperienceRequest, PortfolioManagement.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetById",
+    "RelativePath": "api/experiences/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PortfolioManagement.Application.DTOs.ExperienceDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PortfolioManagement.Api.Controllers.CrudController\u00603[[PortfolioManagement.Domain.Entities.Experience, PortfolioManagement.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[PortfolioManagement.Application.DTOs.ExperienceDto, PortfolioManagement.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[PortfolioManagement.Application.DTOs.ExperienceRequest, PortfolioManagement.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Update",
+    "RelativePath": "api/experiences/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "PortfolioManagement.Application.DTOs.ExperienceRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PortfolioManagement.Application.DTOs.ExperienceDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PortfolioManagement.Api.Controllers.CrudController\u00603[[PortfolioManagement.Domain.Entities.Experience, PortfolioManagement.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[PortfolioManagement.Application.DTOs.ExperienceDto, PortfolioManagement.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[PortfolioManagement.Application.DTOs.ExperienceRequest, PortfolioManagement.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Delete",
+    "RelativePath": "api/experiences/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PortfolioManagement.Api.Controllers.FilesController",
+    "Method": "Upload",
+    "RelativePath": "api/files",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "file",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PortfolioManagement.Application.DTOs.FileUploadResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PortfolioManagement.Api.Controllers.CrudController\u00603[[PortfolioManagement.Domain.Entities.Project, PortfolioManagement.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[PortfolioManagement.Application.DTOs.ProjectDto, PortfolioManagement.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[PortfolioManagement.Application.DTOs.ProjectRequest, PortfolioManagement.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetPaged",
+    "RelativePath": "api/projects",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Search",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SortBy",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SortDescending",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PortfolioManagement.Application.Common.PagedResult\u00601[[PortfolioManagement.Application.DTOs.ProjectDto, PortfolioManagement.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PortfolioManagement.Api.Controllers.CrudController\u00603[[PortfolioManagement.Domain.Entities.Project, PortfolioManagement.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[PortfolioManagement.Application.DTOs.ProjectDto, PortfolioManagement.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[PortfolioManagement.Application.DTOs.ProjectRequest, PortfolioManagement.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Create",
+    "RelativePath": "api/projects",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "PortfolioManagement.Application.DTOs.ProjectRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PortfolioManagement.Application.DTOs.ProjectDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PortfolioManagement.Api.Controllers.CrudController\u00603[[PortfolioManagement.Domain.Entities.Project, PortfolioManagement.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[PortfolioManagement.Application.DTOs.ProjectDto, PortfolioManagement.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[PortfolioManagement.Application.DTOs.ProjectRequest, PortfolioManagement.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetById",
+    "RelativePath": "api/projects/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PortfolioManagement.Application.DTOs.ProjectDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PortfolioManagement.Api.Controllers.CrudController\u00603[[PortfolioManagement.Domain.Entities.Project, PortfolioManagement.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[PortfolioManagement.Application.DTOs.ProjectDto, PortfolioManagement.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[PortfolioManagement.Application.DTOs.ProjectRequest, PortfolioManagement.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Update",
+    "RelativePath": "api/projects/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "PortfolioManagement.Application.DTOs.ProjectRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PortfolioManagement.Application.DTOs.ProjectDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PortfolioManagement.Api.Controllers.CrudController\u00603[[PortfolioManagement.Domain.Entities.Project, PortfolioManagement.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[PortfolioManagement.Application.DTOs.ProjectDto, PortfolioManagement.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[PortfolioManagement.Application.DTOs.ProjectRequest, PortfolioManagement.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Delete",
+    "RelativePath": "api/projects/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PortfolioManagement.Api.Controllers.CrudController\u00603[[PortfolioManagement.Domain.Entities.Skill, PortfolioManagement.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[PortfolioManagement.Application.DTOs.SkillDto, PortfolioManagement.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[PortfolioManagement.Application.DTOs.SkillRequest, PortfolioManagement.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetPaged",
+    "RelativePath": "api/skills",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Search",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SortBy",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SortDescending",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PortfolioManagement.Application.Common.PagedResult\u00601[[PortfolioManagement.Application.DTOs.SkillDto, PortfolioManagement.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PortfolioManagement.Api.Controllers.CrudController\u00603[[PortfolioManagement.Domain.Entities.Skill, PortfolioManagement.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[PortfolioManagement.Application.DTOs.SkillDto, PortfolioManagement.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[PortfolioManagement.Application.DTOs.SkillRequest, PortfolioManagement.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Create",
+    "RelativePath": "api/skills",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "PortfolioManagement.Application.DTOs.SkillRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PortfolioManagement.Application.DTOs.SkillDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PortfolioManagement.Api.Controllers.CrudController\u00603[[PortfolioManagement.Domain.Entities.Skill, PortfolioManagement.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[PortfolioManagement.Application.DTOs.SkillDto, PortfolioManagement.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[PortfolioManagement.Application.DTOs.SkillRequest, PortfolioManagement.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetById",
+    "RelativePath": "api/skills/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PortfolioManagement.Application.DTOs.SkillDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PortfolioManagement.Api.Controllers.CrudController\u00603[[PortfolioManagement.Domain.Entities.Skill, PortfolioManagement.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[PortfolioManagement.Application.DTOs.SkillDto, PortfolioManagement.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[PortfolioManagement.Application.DTOs.SkillRequest, PortfolioManagement.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Update",
+    "RelativePath": "api/skills/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "PortfolioManagement.Application.DTOs.SkillRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PortfolioManagement.Application.DTOs.SkillDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PortfolioManagement.Api.Controllers.CrudController\u00603[[PortfolioManagement.Domain.Entities.Skill, PortfolioManagement.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[PortfolioManagement.Application.DTOs.SkillDto, PortfolioManagement.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[PortfolioManagement.Application.DTOs.SkillRequest, PortfolioManagement.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Delete",
+    "RelativePath": "api/skills/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PortfolioManagement.Api.Controllers.TestimonialsController",
+    "Method": "GetPaged",
+    "RelativePath": "api/testimonials",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Search",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SortBy",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SortDescending",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PortfolioManagement.Application.Common.PagedResult\u00601[[PortfolioManagement.Application.DTOs.TestimonialDto, PortfolioManagement.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PortfolioManagement.Api.Controllers.TestimonialsController",
+    "Method": "Submit",
+    "RelativePath": "api/testimonials",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "PortfolioManagement.Application.DTOs.TestimonialRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PortfolioManagement.Application.DTOs.TestimonialDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PortfolioManagement.Api.Controllers.TestimonialsController",
+    "Method": "Delete",
+    "RelativePath": "api/testimonials/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PortfolioManagement.Api.Controllers.TestimonialsController",
+    "Method": "Approve",
+    "RelativePath": "api/testimonials/{id}/approve",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PortfolioManagement.Application.DTOs.TestimonialDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PortfolioManagement.Api.Controllers.TestimonialsController",
+    "Method": "Reject",
+    "RelativePath": "api/testimonials/{id}/reject",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PortfolioManagement.Application.DTOs.TestimonialDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PortfolioManagement.Api.Controllers.TestimonialsController",
+    "Method": "GetApproved",
+    "RelativePath": "api/testimonials/approved",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IReadOnlyList\u00601[[PortfolioManagement.Application.DTOs.TestimonialDto, PortfolioManagement.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

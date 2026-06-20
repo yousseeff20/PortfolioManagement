@@ -1,0 +1,16 @@
+C:\Users\youss\Desktop\Portfolio\src\PortfolioManagement.Application\bin\Release\net8.0\PortfolioManagement.Application.deps.json
+C:\Users\youss\Desktop\Portfolio\src\PortfolioManagement.Application\bin\Release\net8.0\PortfolioManagement.Application.dll
+C:\Users\youss\Desktop\Portfolio\src\PortfolioManagement.Application\bin\Release\net8.0\PortfolioManagement.Application.pdb
+C:\Users\youss\Desktop\Portfolio\src\PortfolioManagement.Application\bin\Release\net8.0\PortfolioManagement.Domain.dll
+C:\Users\youss\Desktop\Portfolio\src\PortfolioManagement.Application\bin\Release\net8.0\PortfolioManagement.Domain.pdb
+C:\Users\youss\Desktop\Portfolio\src\PortfolioManagement.Application\obj\Release\net8.0\PortfolioManagement.Application.csproj.AssemblyReference.cache
+C:\Users\youss\Desktop\Portfolio\src\PortfolioManagement.Application\obj\Release\net8.0\PortfolioManagement.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\youss\Desktop\Portfolio\src\PortfolioManagement.Application\obj\Release\net8.0\PortfolioManagement.Application.AssemblyInfoInputs.cache
+C:\Users\youss\Desktop\Portfolio\src\PortfolioManagement.Application\obj\Release\net8.0\PortfolioManagement.Application.AssemblyInfo.cs
+C:\Users\youss\Desktop\Portfolio\src\PortfolioManagement.Application\obj\Release\net8.0\PortfolioManagement.Application.csproj.CoreCompileInputs.cache
+C:\Users\youss\Desktop\Portfolio\src\PortfolioManagement.Application\obj\Release\net8.0\PortfolioManagement.Application.sourcelink.json
+C:\Users\youss\Desktop\Portfolio\src\PortfolioManagement.Application\obj\Release\net8.0\Portfoli.E77D856B.Up2Date
+C:\Users\youss\Desktop\Portfolio\src\PortfolioManagement.Application\obj\Release\net8.0\PortfolioManagement.Application.dll
+C:\Users\youss\Desktop\Portfolio\src\PortfolioManagement.Application\obj\Release\net8.0\refint\PortfolioManagement.Application.dll
+C:\Users\youss\Desktop\Portfolio\src\PortfolioManagement.Application\obj\Release\net8.0\PortfolioManagement.Application.pdb
+C:\Users\youss\Desktop\Portfolio\src\PortfolioManagement.Application\obj\Release\net8.0\ref\PortfolioManagement.Application.dll

@@ -17,3 +17,4 @@ C:\Users\youss\Desktop\Portfolio\src\PortfolioManagement.Infrastructure\obj\Debu
 C:\Users\youss\Desktop\Portfolio\src\PortfolioManagement.Infrastructure\obj\Debug\net8.0\PortfolioManagement.Infrastructure.pdb
 C:\Users\youss\Desktop\Portfolio\src\PortfolioManagement.Infrastructure\obj\Debug\net8.0\PortfolioManagement.Infrastructure.genruntimeconfig.cache
 C:\Users\youss\Desktop\Portfolio\src\PortfolioManagement.Infrastructure\obj\Debug\net8.0\ref\PortfolioManagement.Infrastructure.dll
+C:\Users\youss\Desktop\Portfolio\src\PortfolioManagement.Infrastructure\obj\Debug\net8.0\PortfolioManagement.Infrastructure.sourcelink.json

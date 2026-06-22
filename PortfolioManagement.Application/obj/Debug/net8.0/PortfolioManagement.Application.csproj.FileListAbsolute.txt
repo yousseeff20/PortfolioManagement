@@ -13,3 +13,4 @@ C:\Users\youss\Desktop\Portfolio\src\PortfolioManagement.Application\obj\Debug\n
 C:\Users\youss\Desktop\Portfolio\src\PortfolioManagement.Application\obj\Debug\net8.0\refint\PortfolioManagement.Application.dll
 C:\Users\youss\Desktop\Portfolio\src\PortfolioManagement.Application\obj\Debug\net8.0\PortfolioManagement.Application.pdb
 C:\Users\youss\Desktop\Portfolio\src\PortfolioManagement.Application\obj\Debug\net8.0\ref\PortfolioManagement.Application.dll
+C:\Users\youss\Desktop\Portfolio\src\PortfolioManagement.Application\obj\Debug\net8.0\PortfolioManagement.Application.sourcelink.json

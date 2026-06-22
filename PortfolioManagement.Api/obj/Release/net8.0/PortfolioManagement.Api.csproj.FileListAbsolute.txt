@@ -175,3 +175,4 @@ C:\Users\youss\Desktop\Portfolio\src\PortfolioManagement.Api\obj\Release\net8.0\
 C:\Users\youss\Desktop\Portfolio\src\PortfolioManagement.Api\obj\Release\net8.0\PortfolioManagement.Api.pdb
 C:\Users\youss\Desktop\Portfolio\src\PortfolioManagement.Api\obj\Release\net8.0\PortfolioManagement.Api.genruntimeconfig.cache
 C:\Users\youss\Desktop\Portfolio\src\PortfolioManagement.Api\obj\Release\net8.0\ref\PortfolioManagement.Api.dll
+C:\Users\youss\Desktop\Portfolio\src\PortfolioManagement.Api\obj\Release\net8.0\staticwebassets.upToDateCheck.txt

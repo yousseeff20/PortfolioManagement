@@ -10,3 +10,4 @@ C:\Users\youss\Desktop\Portfolio\src\PortfolioManagement.Domain\obj\Debug\net8.0
 C:\Users\youss\Desktop\Portfolio\src\PortfolioManagement.Domain\obj\Debug\net8.0\refint\PortfolioManagement.Domain.dll
 C:\Users\youss\Desktop\Portfolio\src\PortfolioManagement.Domain\obj\Debug\net8.0\PortfolioManagement.Domain.pdb
 C:\Users\youss\Desktop\Portfolio\src\PortfolioManagement.Domain\obj\Debug\net8.0\ref\PortfolioManagement.Domain.dll
+C:\Users\youss\Desktop\Portfolio\src\PortfolioManagement.Domain\obj\Debug\net8.0\PortfolioManagement.Domain.sourcelink.json

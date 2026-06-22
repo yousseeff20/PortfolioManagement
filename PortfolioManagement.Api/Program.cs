@@ -21,9 +21,11 @@ builder.Services.AddInfrastructure(builder.Configuration);
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("frontend", policy =>
-        policy.WithOrigins(builder.Configuration.GetSection("Cors:AllowedOrigins").Get<string[]>() ?? ["http://localhost:5173"])
-            .AllowAnyHeader()
-            .AllowAnyMethod());
+        policy.WithOrigins(
+            "http://localhost:5173",
+            "https://usef-asharf.netlify.app", "https://usef-ashraf-git-main-yousseeff20s-projects.vercel.app/", "https://usef-ashraf.vercel.app")
+        .AllowAnyHeader()
+        .AllowAnyMethod());
 });
 
 var jwtOptions = builder.Configuration.GetSection("Jwt").Get<JwtOptions>() ?? new JwtOptions();
@@ -82,11 +84,10 @@ var app = builder.Build();
 app.UseMiddleware<ExceptionHandlingMiddleware>();
 app.UseSerilogRequestLogging();
 
-if (app.Environment.IsDevelopment())
-{
+
     app.UseSwagger();
     app.UseSwaggerUI();
-}
+
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
